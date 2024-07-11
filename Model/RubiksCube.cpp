@@ -1,13 +1,4 @@
-//
-// Created by Shubham Patil on 17/12/21.
-//
-
 #include "RubiksCube.h"
-
-//
-//Given a color return it's first letter
-//
-
 char RubiksCube::getColorLetter(COLOR color) {
     switch (color) {
         case COLOR::BLUE:
