@@ -41,8 +41,7 @@ public:
      * If Rubik's Cube face is pointing at you, then the row numbering starts from the
      * top to bottom, and column numbering starts from the left to right.
      * The rows and columns are 0-indexed.
-     * @param Face, row, and column index
-     */
+     
     virtual COLOR getColor(FACE face, unsigned row, unsigned col) const = 0;
 
     /*
